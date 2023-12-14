@@ -1,0 +1,275 @@
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../fonts/MontserratAlternates-Medium.woff2") format("woff2"), url("../fonts/MontserratAlternates-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../Montserrat-Medium.woff2") format("woff2"), url("../Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+.wrapper {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+.main__about {
+  overflow-x: hidden;
+}
+
+.about__tittle {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color: #2B2B2B;
+  font-family: Montserrat Alternates;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.main_background {
+  width: 100%;
+}
+
+.info__text {
+  color: #8F8F8F;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat Alternates;
+  font-size: 26.535px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 400px;
+  margin-top: 40px;
+}
+
+.info__inner {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__info {
+  margin-bottom: 150px;
+}
+
+.information__item {
+  margin-bottom: 60px;
+}
+
+.information__tittle {
+  color: #2B2B2B;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat Alternates;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 80px;
+}
+
+.information__title {
+  color: #2B2B2B;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat Alternates;
+  font-size: 26.535px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.information__text {
+  color: #2B2B2B;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat Alternates;
+  font-size: 16.585px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.information__block {
+  margin-right: 250px;
+}
+
+.main__kurs {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.kurs_background {
+  width: 100%;
+}
+
+.kurs__tittle {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  width: 100%;
+  color: white;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat Alternates;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.kurs__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  position: absolute;
+  bottom: 150px;
+  gap: 15px;
+}
+
+.kurs__item {
+  text-align: center;
+}
+
+.kurs__text {
+  color: #FFF;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat Alternates;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.kurs__item img {
+  margin-bottom: 10px;
+}
+
+.main__pdf {
+  margin-bottom: 50px;
+}
+
+.pdf__tittle {
+  color: #2B2B2B;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat Alternates;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 50px;
+}
+
+.pdf__background {
+  margin-top: -50px;
+  width: 100%;
+}
+
+.download__pdf {
+  color: #000;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Montserrat Alternates;
+  font-size: 26.535px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 50px;
+}
